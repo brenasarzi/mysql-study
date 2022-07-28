@@ -1,0 +1,81 @@
+✳️CRIANDO TABELAS
+
+CREATE TABLE {NOME DA TABELA}(
+    {NOME DA COLUNA}{TIPO DE DADO},
+)
+-----------------------------------------
+✳️INSERIR DADOS NAS TABELAS
+
+USE{NOME DO BANCO}
+
+INSERT INTO {NOME DA TABELA}(
+
+    {COLUNAS DAS TABELAS},
+
+) VALUE (
+
+    {VALORES QUE SERÃO ADICIONADOS AS COLUNAS}
+
+)
+-----------------------------------------
+APAGANDO TABELAS
+DROP TABLE {NOME DA TABELA}
+-----------------------------------------
+✳️ATUALIZAR TABELAS
+
+USE{NOME DO BANCO}
+
+UPDATE {NOME DA TABELA} SET {NOME DA COLUNA} = {VALOR NOVO} WHERE {ID}
+-----------------------------------------
+✳️SELECIONAR TABELA
+
+SELECT * FROM {NOME DA TABELA}
+-----------------------------------------
+✳️EXCLUIR CAMPO
+
+USE{NOME DO BANCO}
+
+DELETE FROM {NOME DA TABELA} WHERE {ID}
+
+‼️CUIDADO AO RODAR O COMANDO SEM O WHERE, POIS IRÁ APAGAR A TABELA INTEIRA. UTILIZE O "WHERE" PARA ESPECIFICAR‼️
+
+-----------------------------------------
+✳️ALERAR E ADICIONAR CHAVE PRIMARIA DE COLUNAS DE UMA TABELA
+
+USE{NOME DO BANCO}
+
+ALTER TABLE {NOME DA TABELA} ADD PRIMARY KEY(NOME DA COLUNA)
+-----------------------------------------
+✳️ADICIONAR COLUNA EM UMA TABELA
+
+USE{NOME DO BANCO}
+
+ALTER TABLE {NOME DA TABELA} ADD COLUMN(NOME DA COLUNA)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
