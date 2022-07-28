@@ -1,2 +1,0 @@
-# mysql-study
-# mysql-study

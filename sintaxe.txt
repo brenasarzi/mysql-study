@@ -1,0 +1,145 @@
+CREATE DATABASE
+
+➕️ CREATE DATABASE {NOME_DO_BANCO};
+
+DELETE DATABASE
+
+➖️ DROP DATABASE {NOME_DO_BANCO};
+--------------------------------
+
+❇️CRIANDO TABELA❇️ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PONTO FLUTUANTE
+
+✳️FLOAT - Precisão simples(4 bytes)
+✳️DOUBLE - Precisão dupla(8 bytes)
+
+Ex: Se declaramos um campo FLOAT(7,4) se incluímos o número 999,0009 o valor armazenado será 999,0001
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+FIXOS:
+DECIMAL ou NUMERIC
+
+TAMANHO: Até 65 dígitos
+
+Especificamos o número de digitos e número de casas decimais.
+EX: Se declaramos um campo DECIMAL(5,2) iremos poder armazenar valores somente entre -999,99 e 999,99
+Número máximo de digitos são 65.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Único:
+BIT
+
+Tamanho: Até 64 bits
+
+Ex: BIT(1) - Pode ser 1 ou 0
+
+BIT(2) - Pode ser 01, 10, 00, 11
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Atributos de campos númericos:
+
+✳️SIGNED ou UNSIGNED - Vai possuir ou não sinal no número.
+
+✳️ZEROFILL - Preencher com Zeros os espaçõs.
+EX: INT(4) Se colocarmos 5 será gravado 0005.
+
+✳️AUTO_INCREMENT - Sequencia auto incrementada.
+EX: 1, 2, 3, 4, 5...
+
+✳️Erros de OUT OF RANGE:
+Vão ocorrer quando os valores estourarem os limites.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Data e Hora:
+
+✳️DATE - 2000-02-02 até 2002-02-02
+✳️DATETIME - 2000-02-02 00:00:00 até 2002-02-02 01:00:00
+✳️TIMESTAMP - 2000-02-02 01:00:00 UTC até 2002-02-02 02:00:00 UTC
+✳️TIME - -199:59:30 e 200:02:29
+✳️YEAR - 1901 - 2010 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+STRINGS
+
+CHAR - Cadeia de caracteres com valor fixo (de 0 a 255).
+VARCHAR - Cadeia de caracteres com valor variado (de 0 a 255).
+BINARY - Cadeia de caracteres com valor fico(de 0 a 255). Expressos em Binários.
+VARBINAY - Cadeia de caracteres com valor variado(de 0 a 255).
+BLOB - Binário longo. Podemos ter:
+✳️TINYBLOB
+✳️BLOB
+✳️MEDIUMBLOB
+✳️LONGBLOB
+✳️TEXT - Texto longo
+✳️TINYTEXT
+✳️MEDIUMTEXT
+✳️LONGTEXT
+
+ENUM - Permite armazenar uma lista pré-definida de valores.
+Ex: Size ENUM('x-small', 'small', 'medium', 'large', 'x-large').
+
+SET e COLLATE - Que tipo de conjunto de caracteres serão suportados.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+SPACIAL 
+✳️GEOMETRY
+✳️POINT
+✳️LINESTRING
+✳️POLYGON
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
