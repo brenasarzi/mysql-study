@@ -1,0 +1,29 @@
+Introdução ao MYSQL
+
+O que é - Um banco de dados é um repositório que armazena dados e que podem ser recuperados.
+
+Um banco de dados tem uma coleção de tabelas.
+
+O QUE TEMOS?
+
+- Banco de dados => Tabelas => Campos(Registros)
+
+Chave primária - Os campos que suas cobinações não podem se repitir nas linhas ou registros da tabela.
+
+Chave estrangeira - É uma referência em uma tabela a uma chave primaria de outra tabela.
+
+Indice - É um instrumento que eu consigo achar elementos na minha tabela. Ele facilita a busca.
+
+Esquema - Assuntos(Tabela) - ORGANIZAÇÃO
+
+View(Visão) - É um conjunto de resultado de uma consulta armazenada sobre dados
+
+Procedures - Lógica estruturada utilizando comandos sql
+
+Trigger - Um aviso que eu programo em uma tabela
+
+
+
+
+
+
